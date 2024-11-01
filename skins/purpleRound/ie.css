@@ -1,0 +1,7 @@
+div.tabberTable { position: relative;  height: 500px; border: 1px solid #000; width: 100%; margin-left: 30%; }
+		div.tabberTableTabs ul.tabberCats { position: absolute; left: -130px; top: 0; margin: -1px 0 0;}
+	
+	div.tabberTableTabs ul.tabberCats li a { display: block; width: 130px; height; 100%; border: 1px solid #000; padding: 5px; background: #ddd;}
+		div.tabberlist-logo-container .tabberlist-logo {  display: block;  width: 108px; height: 20px; background: url(images/tabberLogo.png) no-repeat; position: absolute; top: 95%; right: 5px; }
+			.tabberlist-logo span {display: block; width: 0; height: 0; overflow: hidden; }
+

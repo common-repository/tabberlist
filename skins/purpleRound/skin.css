@@ -1,0 +1,105 @@
+div.tabberTable { position: relative;  min-height: 500px; border: 1px solid #532139; width: 70%; margin-left: 152px; text-align: left; -moz-border-radius-topright: 5px; -moz-border-radius-bottomright: 5px; -moz-border-radius-bottomleft: 5px; -webkit-border-top-right-radius: 5px; -webkit-border-bottom-right-radius: 5px; -webkit-border-bottom-left-radius: 5px; margin-top: 20px; margin-bottom: 20px; background: #fff;  text-transform: none; font-family: arial, helvetica, sans-serif; font-size: 110%;}
+	div.tabberTable div.tabberTableTabs { }
+		div.tabberTableTabs h2.tabberTitle { text-align: center; margin: 20px 0 10px; font-size: 26px;   font-family: arial, helvetica, sans-serif; border: 0; padding: 3px 0; letter-spacing: 0; color: #000; width: 100%;	}
+		div.tabberTableTabs ul.tabberCats { position: absolute; left: -152px; top: 0; margin: -1px 0 0; padding: 0;}
+		div.tabberTableTabs ul li:before { content: ""; }
+
+			div.tabberTableTabs ul.tabberCats li.tabberlist-first-category { }
+				div.tabberTableTabs ul.tabberCats li.tabberlist-first-category a,
+				div.tabberTableTabs ul.tabberCats li.tabberlist-first-category a:link,
+				div.tabberTableTabs ul.tabberCats li.tabberlist-first-category a:visited
+				{ -moz-border-radius-topleft: 5px; -webkit-border-top-left-radius: 5px; text-decoration: none; }
+				div.tabberTableTabs ul.tabberCats li.tabberlist-first-category a.selected, 
+				div.tabberTableTabs ul.tabberCats li.tabberlist-first-category a:hover,
+				div.tabberTableTabs ul.tabberCats li.tabberlist-first-category a:active,
+				div.tabberTableTabs ul.tabberCats li.tabberlist-first-category a:focus { }				
+			div.tabberTableTabs ul.tabberCats li {margin: 0; padding: 0; text-indent: 0; text-align: left;width: 152px; list-style: none;}
+				div.tabberTableTabs ul.tabberCats li a,
+				div.tabberTableTabs ul.tabberCats li a:link,
+				div.tabberTableTabs ul.tabberCats li a:visited
+				{ display: block; width: 140px;height; 100%; border: 1px solid #532139; padding: 5px; background: #f8e5ee; color: #532139; text-decoration: none;}
+				div.tabberTableTabs ul.tabberCats li a.selected,
+				div.tabberTableTabs ul.tabberCats li a:hover,
+				div.tabberTableTabs ul.tabberCats li a:active,
+				div.tabberTableTabs ul.tabberCats li a:focus {   border-right: none; background: #fff; padding-right: 6px; text-decoration: none;}				
+			div.tabberTableTabs ul.tabberCats li.tabberlist-last-category {   }
+				div.tabberTableTabs ul.tabberCats li.tabberlist-last-category a,
+				div.tabberTableTabs ul.tabberCats li.tabberlist-last-category a:link,
+				div.tabberTableTabs ul.tabberCats li.tabberlist-last-category a:visited
+				{ -moz-border-radius-bottomleft: 5px; -webkit-border-bottom-left-radius: 5px; }
+				div.tabberTableTabs ul.tabberCats li.tabberlist-last-category a.selected,
+				div.tabberTableTabs ul.tabberCats li.tabberlist-last-category a:hover,
+				div.tabberTableTabs ul.tabberCats li.tabberlist-last-category a:active,
+				div.tabberTableTabs ul.tabberCats li.tabberlist-last-category a:focus { }				
+		div.tabberTableTabs div.tabberlist-items-container-single {}
+			div.tabberlist-items-container-single div.tabberlist-category-div { }
+		
+		
+		div.tabberTableTabs div.tabberlist-items-container { clear: both;}
+			div.tabberlist-items-container div.tabberlist-category-div {  }
+			
+				div.tabberlist-category-div h3 { margin: 5px 20px 5px; padding: 0; text-align: center; font-size: 150%; color: #000;}
+				div.tabberlist-category-div h4 { margin:0; padding: 0; text-align: center; font-size: 90%; font-style: italic; color: #666;  }
+				div.tabberlist-category-div ul.tabberlist-category-ul { padding: 0; margin: 0 20px; color: #000;}
+					div.tabberlist-category-div ul.tabberlist-category-ul li.tabberlist-new-item { font-weight: bold; padding-left: 38px; background: url(images/BadgeNew.png) no-repeat top left;  }
+						div.tabberlist-category-div ul.tabberlist-category-ul li.tabberlist-new-item a { font-weight: bold; }
+						div.tabberlist-category-div ul.tabberlist-category-ul li.tabberlist-new-item a.selected,
+						div.tabberlist-category-div ul.tabberlist-category-ul li.tabberlist-new-item a:hover,
+						div.tabberlist-category-div ul.tabberlist-category-ul li.tabberlist-new-item a:active,
+						div.tabberlist-category-div ul.tabberlist-category-ul li.tabberlist-new-item a:focus { }
+					div.tabberlist-category-div ul.tabberlist-category-ul li.tabberlist-deleted-item { text-decoration: line-through; color: #666; }
+						div.tabberlist-category-div ul.tabberlist-category-ul li.tabberlist-deleted-item a { }
+						div.tabberlist-category-div ul.tabberlist-category-ul li.tabberlist-deleted-item a.selected,
+						div.tabberlist-category-div ul.tabberlist-category-ul li.tabberlist-deleted-item a:hover,
+						div.tabberlist-category-div ul.tabberlist-category-ul li.tabberlist-deleted-item a:active,
+						div.tabberlist-category-div ul.tabberlist-category-ul li.tabberlist-deleted-item a:focus { }
+					div.tabberlist-category-div ul.tabberlist-category-ul li.tabberlist-first-item { }
+						div.tabberlist-category-div ul.tabberlist-category-ul li.tabberlist-first-item a { }
+						div.tabberlist-category-div ul.tabberlist-category-ul li.tabberlist-first-item a.selected,
+						div.tabberlist-category-div ul.tabberlist-category-ul li.tabberlist-first-item a:hover,
+						div.tabberlist-category-div ul.tabberlist-category-ul li.tabberlist-first-item a:active,
+						div.tabberlist-category-div ul.tabberlist-category-ul li.tabberlist-first-item a:focus { }
+					div.tabberlist-category-div ul.tabberlist-category-ul li { margin: 0; padding: 5px 0;  text-indent: 0; list-style: none; line-height: 1;}
+						div.tabberlist-category-div ul.tabberlist-category-ul li a { color: #532139; font-weight: bold; text-decoration: none;}
+						div.tabberlist-category-div ul.tabberlist-category-ul li.tabberlist-first-item a.selected,
+						div.tabberlist-category-div ul.tabberlist-category-ul li a:hover,
+						div.tabberlist-category-div ul.tabberlist-category-ul li a:hover,
+						div.tabberlist-category-div ul.tabberlist-category-ul li a:active,
+						div.tabberlist-category-div ul.tabberlist-category-ul li a:focus { text-decoration: underline;}
+					div.tabberlist-category-div ul.tabberlist-category-ul li.tabberlist-last-item { }
+						div.tabberlist-category-div ul.tabberlist-category-ul li.tabberlist-last-item a { }
+						div.tabberlist-category-div ul.tabberlist-category-ul li.tabberlist-first-item a.selected,
+						div.tabberlist-category-div ul.tabberlist-category-ul li.tabberlist-last-item a:hover,
+						div.tabberlist-category-div ul.tabberlist-category-ul li.tabberlist-last-item a:active,
+						div.tabberlist-category-div ul.tabberlist-category-ul li.tabberlist-last-item a:focus { }
+				div.tabberlist-category-div p.tabberNext { }
+					
+					/* Set this to display: none if you don't want the functionality of next list */
+					
+					div.tabberlist-category-div p.tabberNext {text-indent: 0; margin: 20px 0; }
+					div.tabberlist-category-div p.tabberNext a.tabberNextTab
+					{  color: #532139; font-weight: bold; margin: 20px; text-decoration: none;  }
+					div.tabberlist-category-div p.tabberNext a.tabberNextTab:hover,
+					div.tabberlist-category-div p.tabberNext a.tabberNextTab:active,
+					div.tabberlist-category-div p.tabberNext a.tabberNextTab:focus { text-decoration: underline; }
+					
+					
+				div.tabberlist-category-div div.tabberlist-category-total { text-align: center; margin: 5px 15px 15px; font-style: italic; color: #666;}
+					div.tabberlist-items-container-single div.tabberlist-category-total { }
+					div.tabberlist-category-total strong.tabberCatTotal { }
+				div.tabberlist-category-div noscript { }
+		
+		div.tabberTable div.tabberlist-combined-total { padding: 0; text-align: center; margin: 0; font-weight: bold;  }
+			div.tabberlist-combined-total strong.tabberTotal { }
+		div.tabberTable div.tabberlist-combined-total-single { }
+			div.tabberlist-combined-total-single strong.tabberTotal { }
+		
+	
+div.tabberlist-items-container-single div.tabberlist-category-div h3 { text-align: left; }
+	
+/* You don't have to keep this here if you don't want to, but if you like using this plugin the links would do me good. Ta! */
+/* If you want to get rid of this, change display: block to display: none (but I know you won't, cause you're awesome). */
+	div.tabberTable div.tabberlist-logo-container { display: block;}
+		div.tabberlist-logo-container .tabberlist-logo {  display: block;  width: 108px; height: 20px; background: url(images/tabberLogo.png) no-repeat; position: absolute; bottom: 5px; right: 5px; }
+			.tabberlist-logo span {display: block; width: 0; height: 0; overflow: hidden; }
+

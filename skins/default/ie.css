@@ -1,0 +1,10 @@
+div.tabberTableTabs ul.tabberCats li { padding: 0; color: #000;}
+				div.tabberTableTabs ul.tabberCats li a,
+				div.tabberTableTabs ul.tabberCats li a:link,
+				div.tabberTableTabs ul.tabberCats li a:visited
+				{ padding: 5px 0; color: #fff;}
+				div.tabberTableTabs ul.tabberCats li a.selected:visited,
+				div.tabberTableTabs ul.tabberCats li a.selected,
+				div.tabberTableTabs ul.tabberCats li a:hover,
+				div.tabberTableTabs ul.tabberCats li a:active,
+				div.tabberTableTabs ul.tabberCats li a:focus {  padding: 5px 0; color: #000;}				
